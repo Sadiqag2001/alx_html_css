@@ -85,7 +85,13 @@ footer a {
 a {
 	color: #F80002;
 }
-
+.logo-symbol {
+  font-size: 30px;
+  color: gold;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  
+}
 
 /* Positioning and margins */
 
