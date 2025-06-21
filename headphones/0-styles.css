@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-Regular.woff2') format('woff2'),
+         url('fonts/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 62.5%;
+    margin: 0 auto 3rem;
+}
+header {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+     background-position: top center;
+    height: auto;
+    width: 100%;
+    
+}
+/* nav{
+    width: 90%;
+    height: 4rem;
+   
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+} */
+
+nav { 
+    padding: 2rem 1rem 0;
+    width: 100%;
+    max-width: 1103.41px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+nav ul {
+    float: right;
+    margin-right: 5rem;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 1.6rem;
+   
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: #FF6565;
+    text-decoration: none;
+
+}
+nav ul li a.active {
+    color: #FF6565;
+    text-decoration: none;
+}
+
+ nav img{
+   width: 167.02px;
+    height: 29.46px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    height: auto;
+}
+.hero h3 {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+   margin-bottom: 2.7rem;
+}
+.hero .btn{
+    background-color: #FF6565;
+    color: #ffffff;
+    display: block;
+    width: 162px;
+    height: 44px;
+    margin: 0 auto; 
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 2.5rem;
+    border: none;
+    box-shadow: 0px 2px 20px 0px #00000080;
+}
+.hero .btn:hover {
+    background-color: #FF4747;
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero .btn:active {
+    background-color: #FF6565;
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 600px;
+    margin: 4rem auto;
+}
