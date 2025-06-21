@@ -178,7 +178,6 @@ nav ul li a.active {
     letter-spacing: 0px;
     margin-bottom: 2rem;
 }
-
 .products p {
     font-size: 14px;
     color: #333;
@@ -206,7 +205,7 @@ nav ul li a.active {
   align-items: center;
   max-width: 200px;
   text-align: center;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'SourceSansPro', sans-serif;
 }
 
 .icon-container i {
@@ -221,4 +220,172 @@ nav ul li a.active {
   /* line-height: 1.5; */
   margin-bottom: 1rem;
   width: 100%;
+}
+/* .results{
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+    height: auto;
+    width: 100%;
+    
+}
+.results h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    height: auto;
+    text-align: center;
+    padding-top: 10rem;
+}
+.results p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    text-align: center;
+}
+.results-cards{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.results-cards img {
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+} */
+/* 
+.results-cards .card {
+  position: relative;
+  width: 190px;
+  height: 190px;
+  display: flex;
+}
+
+.results-cards .card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'SourceSansPro', sans-serif;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.overlay-text h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.overlay-text p {
+  font-size: 14px;
+  margin-top: 0.25rem;
+  font-weight: 400;
+} */
+
+
+.results {
+  background-image: url(images/headphones_hero_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.results h1 {
+   font-size: 2rem;
+    color: #ffffff;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    height: auto;
+    text-align: center;
+    padding-top: 9rem;
+}
+
+.results .top-p {
+  font-size: 14px;
+    color: #ffffff;
+    font-family: 'SourceSansPro', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.results-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'SourceSansPro', sans-serif;
+  width: 100%;
+}
+
+.overlay-text h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.overlay-text p {
+  font-size: 12px;
+  margin: 0.25rem 0 0 0;
+  font-weight: 400;
 }
